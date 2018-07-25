@@ -1,0 +1,23 @@
+Part,Value,Package,Description,Part Num,Ordering information
+C1,10uF,C0805,"CAPACITOR, American symbol",CL21A106KPCLQNC,https://www.digikey.be/product-detail/en/samsung-electro-mechanics/CL21A106KPCLQNC/1276-2402-1-ND/3890488
+C2,10nF,C0805,"CAPACITOR, American symbol",C0805C103K5RACTU,https://www.digikey.be/product-detail/en/kemet/C0805C103K5RACTU/399-1158-1-ND/411433
+C3,0.1uF,C0805,"CAPACITOR, American symbol",C0805C104M5UACTU,https://www.digikey.be/product-detail/en/kemet/C0805C104M5UACTU/399-1176-1-ND/411451
+C4,0.1uF,C0805,"CAPACITOR, American symbol",C0805C104M5UACTU,https://www.digikey.be/product-detail/en/kemet/C0805C104M5UACTU/399-1176-1-ND/411451
+C5,100nF,C0805,"CAPACITOR, American symbol",C0805C104M5UACTU,https://www.digikey.be/product-detail/en/kemet/C0805C104M5UACTU/399-1176-1-ND/411451
+C6,100nF,C0805,"CAPACITOR, American symbol",C0805C104M5UACTU,https://www.digikey.be/product-detail/en/kemet/C0805C104M5UACTU/399-1176-1-ND/411451
+C7,100nF,C0805,"CAPACITOR, American symbol",C0805C104M5UACTU,https://www.digikey.be/product-detail/en/kemet/C0805C104M5UACTU/399-1176-1-ND/411451
+IC1,"PCF8523T_1,118",SOIC127P600X175-8N,"NXP - PCF8523T/1,118 - REAL TIME CLOCK/CALENDAR, I2C, SOIC-8","PCF8523T/1,118",https://www.digikey.be/product-detail/en/nxp-usa-inc/PCF8523T-1118/568-5306-1-ND/2530784
+IC2,MPU-9250,QFN40P300X300X105-25N,"9-Axis Motion Sensor Module, 25 to 29 kHz, 2.4 to 3.6 V",MPU-9250,https://www.digikey.be/product-detail/en/tdk-invensense/MPU-9250/1428-1019-1-ND/4626450
+IC3,OPT3001DNP,SON65P200X200X65-7N,light sensor IC,OPT3001DNPR,https://www.digikey.be/product-detail/en/texas-instruments/OPT3001DNPR/296-40474-1-ND/5178351
+IC4,BMP280,8-PIN-METAL-LID-LGA,Digital Pressure Sensor,BMP280,https://www.digikey.be/product-detail/en/bosch-sensortec/BMP280/828-1064-1-ND/6136315
+Q1,32768Hz,Q0032768JTX21012520T1LF,CRYSTAL 32.768KHZ SMD,"Q 0,032768-JTX210-12,5-20-T1-LF",https://www.digikey.be/product-detail/en/jauch-quartz/Q-0032768-JTX210-125-20-T1-LF/1908-1340-2-ND/8108110
+Q2,BSS138BK,SOT95P230X110-3N,"MOSFET,n-channel,60V,360mA,1ohm,SOT23 NXP BSS138BK N-channel MOSFET Transistor, 0.36 A, 60 V, 3-Pin SOT-23","BSS138BK,215",https://www.mouser.be/ProductDetail/Nexperia/BSS138BK215?qs=sGAEpiMZZMuW3D0gRv32gjR1uEO0VNm%252b
+Q3,BSS138BK,SOT95P230X110-3N,"MOSFET,n-channel,60V,360mA,1ohm,SOT23 NXP BSS138BK N-channel MOSFET Transistor, 0.36 A, 60 V, 3-Pin SOT-23","BSS138BK,215",https://www.mouser.be/ProductDetail/Nexperia/BSS138BK215?qs=sGAEpiMZZMuW3D0gRv32gjR1uEO0VNm%252b
+R1,1k,R0805,"RESISTOR, American symbol",RNCP0805FTD1K00,https://www.digikey.be/product-detail/en/stackpole-electronics-inc/RNCP0805FTD1K00/RNCP0805FTD1K00CT-ND/2240568
+R2,10k,R0805,"RESISTOR, American symbol",RNCP0805FTD10K0,https://www.digikey.be/product-detail/en/stackpole-electronics-inc/RNCP0805FTD10K0/RNCP0805FTD10K0CT-ND/2240601
+R3,10k,R0805,"RESISTOR, American symbol",RNCP0805FTD10K0,https://www.digikey.be/product-detail/en/stackpole-electronics-inc/RNCP0805FTD10K0/RNCP0805FTD10K0CT-ND/2240601
+R4,10k,R0805,"RESISTOR, American symbol",RNCP0805FTD10K0,https://www.digikey.be/product-detail/en/stackpole-electronics-inc/RNCP0805FTD10K0/RNCP0805FTD10K0CT-ND/2240601
+R5,10k,R0805,"RESISTOR, American symbol",RNCP0805FTD10K0,https://www.digikey.be/product-detail/en/stackpole-electronics-inc/RNCP0805FTD10K0/RNCP0805FTD10K0CT-ND/2240601
+CR1,,,CR1216/CR1220/CR1225 12mm 3V lithium coin cell,CR1220,https://www.digikey.com/product-detail/en/panasonic-bsg/CR1220/P033-ND/269740
+CR1,BC501SM-TR,CR1220-SMD,HOLDER COIN CELL FOR CR1220 SMD,BC501SM-TR,https://www.digikey.be/product-detail/en/mpd-memory-protection-devices/BC501SM-TR/BC501SM-TRCT-ND/5418194
+,,,Arduino Stackable Header Kit,PRT-10007,https://www.sparkfun.com/products/10007
