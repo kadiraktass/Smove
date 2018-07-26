@@ -9,13 +9,14 @@ You need to activate I2C interface on your RPi. Open a terminal in RPi. Run:
     sudo raspi-config
     
 Go to **Interfacing Options**. Select **I2C** and select **Yes**.  
-Also, you need to install libraries for I2C if they are not installed yet. In the terminal, run:
+Also, you need to install libraries for the script if they are not installed yet. In the terminal, run:
 
     sudo apt-get install python-smbus i2c-tools  
+    sudo pip install pyserial
     
-
-
 ## Usage 
+
+
 
 ## RPi script 
 
