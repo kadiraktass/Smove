@@ -4,7 +4,7 @@
 
 ## Installation instructions
 
-You need to activate I2C interface on your RPi. Open a terminal window in RPi. Run:
+You need to activate I2C interface on your RPi. Open a terminal in RPi. Run:
 
     sudo raspi-config
     
