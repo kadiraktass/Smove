@@ -29,7 +29,7 @@ Next, add the line **/path/to/rpi_master.py &** to the file before the **exit 0*
     
 ### Arduino part: 
 
-Simply [upload](https://www.arduino.cc/en/Guide/ArduinoUno) the arduino script (uno_slave.ino) to your Arduino. 
+Simply [upload](https://www.arduino.cc/en/Guide/ArduinoUno) the script (uno_slave.ino) to your Arduino. 
 
     
 ## Usage 
