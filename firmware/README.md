@@ -40,9 +40,9 @@ Setup the hardware and switch on the power.
 
 In the main loop, RPi gets the commands from the user via serial interface. Then it process the command by either ordering Arduino to perform a task or getting the last fuel sensor read value. And, it responses to the user accordingly. 
 
-In another thread, RPi reads the fuel sensor value periodically by sending a request to Arduino in every second. 
+In another thread, RPi reads the fuel sensor value periodically by sending a data request to Arduino in every second. 
 
-Communication between RPi and Arduino is established with I2C as RPi master. A simple command list is defined for the purpose of message exchange between these two device. 
+Communication between RPi and Arduino is established with I2C as RPi master. A simple command list is defined for the purpose of message exchange between these two device. RPi sends simple numbers to Arduino and Arduino perform tasks in respect to the number it receives.  
 
 Used libraries in RPi script:  
 [Pyserial](https://pythonhosted.org/pyserial/) (For the serial interface)  
@@ -51,7 +51,8 @@ Used libraries in RPi script:
 
 ## Arduino script  
 
-In the main loop, Arduino waits for an I2C message. When it receives the message, it controls the relays or updates the fuel sensor reading according to the value of the message. Also, in case RPi makes a data request, it sends the fuel sensor value.  
+In the main loop, Arduino waits for an I2C message from master RPI. When it receives the message, it controls the relays or updates the fuel sensor reading. Also, in case of RPi makes a data request, it sends the fuel sensor value.  
+
 If Arduino does not receive a message for 10 seconds, it restarts RPi. 
 
 Used libraries in Arduino script:  
