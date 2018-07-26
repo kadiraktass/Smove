@@ -4,7 +4,7 @@
 
 ## Installation instructions
 
-To use RPi script: 
+To use RPi script:
 You need to activate I2C interface on your RPi. 
 Open a terminal window in RPi. Run:
 
