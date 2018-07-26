@@ -11,7 +11,7 @@ The following libraries are used for missing footprints:
 [OPT3001](https://componentsearchengine.com/part.php?partID=300356)  
 [PCF8523T](https://componentsearchengine.com/part.php?partID=274221)  
 [BMP280](https://componentsearchengine.com/part.php?partID=237787)  
-[CR1220](https://github.com/adafruit/Adafruit-Eagle-Library)
+[CR1220](https://github.com/adafruit/Adafruit-Eagle-Library)  
 [BSS138](https://componentsearchengine.com/part.php?partID=232961)  
 [JTX210](https://componentsearchengine.com/part.php?partID=1253227)  
 
