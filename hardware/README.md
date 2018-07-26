@@ -13,7 +13,7 @@ PCB has two layers, top and bottom. Both layers are filled with Ground.
 
 Power lines are drawn thicker compared to signal lines. 
 
-Design can be changed to provide a certain dimensional requirement.  
+Design can be changed to provide certain requirements such as dimensions.  
 
 ## Libraries 
 
