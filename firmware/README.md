@@ -34,7 +34,8 @@ Simply [upload](https://www.arduino.cc/en/Guide/ArduinoUno) the script (uno_slav
     
 ## Usage 
 
-Setup the hardware and switch on the power. 
+Setup the hardware and switch on the power.  
+Send commands to RPi.  
 
 ## RPi script 
 
