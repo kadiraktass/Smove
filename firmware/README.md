@@ -4,6 +4,8 @@
 
 ## Installation instructions
 
+### RPi part: 
+
 You need to activate I2C interface on your RPi. Open a terminal in RPi. Run:
 
     sudo raspi-config
@@ -25,9 +27,14 @@ Open a terminal and go to the directory of your script:
 
 Next, add the line **/path/to/rpi_master.py &** to the file before the **exit 0** line **/etc/rc.local**
     
+### Arduino part: 
+
+Simply [upload](https://www.arduino.cc/en/Guide/ArduinoUno) the arduino script (uno_slave.ino) to your Arduino. 
+
+    
 ## Usage 
 
-
+Setup the hardware and switch on the power. 
 
 ## RPi script 
 
