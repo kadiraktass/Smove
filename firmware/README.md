@@ -8,7 +8,7 @@ You need to activate I2C interface on your RPi. Open a terminal in RPi. Run:
 
     sudo raspi-config
     
-Go to **5 Interfacing Options**. Select **I2C** and select **Yes**.  
+Go to **Interfacing Options**. Select **I2C** and select **Yes**.  
 Also, you need to install libraries for I2C if they are not installed yet. In the terminal, run:
 
     sudo apt-get install python-smbus i2c-tools  
