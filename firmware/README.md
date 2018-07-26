@@ -25,7 +25,7 @@ Open a terminal and go to the directory of your script:
  
     chmod +x rpi_master.py 
 
-Next, add the line **/path/to/rpi_master.py &** to the file before the **exit 0** line **/etc/rc.local**
+Next, add the line **/path/to/rpi_master.py &** to the file **/etc/rc.local** before the **exit 0** line.   
     
 ### Arduino part: 
 
