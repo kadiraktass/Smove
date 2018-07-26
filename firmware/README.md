@@ -14,6 +14,17 @@ Also, you need to install libraries for the script if they are not installed yet
     sudo apt-get install python-smbus i2c-tools  
     sudo pip install pyserial
     
+Lastly, you need to make RPi run the script on startup.  
+Open a terminal and go to the directory of your script:
+  
+    cd /path/to/rpi_master.py
+    
+ Make the script executable: 
+ 
+    chmod +x rpi_master.py 
+
+Next, add the line **/path/to/file.py &** to the file before the **exit 0** line **/etc/rc.local**
+    
 ## Usage 
 
 
