@@ -44,7 +44,7 @@ In another thread, RPi reads the fuel sensor value periodically by sending a req
 
 Communication between RPi and Arduino is established with I2C as RPi master. A simple command list is defined for the purpose of message exchange between these two device. 
 
-Used libraries in RPi script: 
+Used libraries in RPi script:  
 [Pyserial](https://pythonhosted.org/pyserial/) (For the serial interface)
 [Smbus](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/plain/Documentation/i2c/smbus-protocol) (For I2C)
 [Threading](https://docs.python.org/3/library/threading.html) (For periodic check) 
