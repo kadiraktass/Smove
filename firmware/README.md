@@ -4,14 +4,12 @@
 
 ## Installation instructions
 
-To use RPi script:
-You need to activate I2C interface on your RPi. 
-Open a terminal window in RPi. Run:
+You need to activate I2C interface on your RPi. Open a terminal window in RPi. Run:
 
     sudo raspi-config
     
-Go to **5 Interfacing Options**. Select **I2C** and select **Yes**.
-Also, you need to install libraries for I2C if they are not installed yet. Run:
+Go to **5 Interfacing Options**. Select **I2C** and select **Yes**.  
+Also, you need to install libraries for I2C if they are not installed yet. In the terminal, run:
 
     sudo apt-get install python-smbus i2c-tools  
     
