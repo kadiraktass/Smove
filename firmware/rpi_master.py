@@ -1,4 +1,4 @@
-
+#!/usr/bin/python
 import serial           # for UART
 import smbus            # for I2C 
 import threading        # for periodic sensor check
@@ -17,8 +17,8 @@ sensorValue = 0
 def checkSensor(): 
 
     i2c.write_byte(address, arduinoCommands["AT+SENS=?"])        # command Arduino to get sensor's value
-    arduinoRsp = i2c.read_i2c_block_data(address, 0,2)            # Arduino sends sensor value in two bytes but as int digits
-    sensorValue = arduinoRsp[0]*100+arduinoRsp[1]                 # combine to obtain the reading
+    arduinoRsp = i2c.read_i2c_block_data(address, 0,2)           # Arduino sends sensor value in two bytes but as int digits
+    sensorValue = arduinoRsp[0]*100+arduinoRsp[1]                # combine to obtain the reading
     threading.Timer(1, checkSensor).start()                      # check every second
 
     
